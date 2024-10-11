@@ -47,3 +47,12 @@ export const CustomColor: Story = {
   }
 };
 
+export const CustomBackgroundColor: Story = {
+  args: {
+    label: 'Background color',
+    size: 'h1',
+    fontColor: 'white',
+    backgroundColor: 'black'
+  }
+};
+
